@@ -7,9 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/handlebauer/eslint-config-spare.git"
   },
-  "scripts": {
-    "test": "exit 1"
-  },
   "keywords": [
     "eslint",
     "eslintconfig"
