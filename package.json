@@ -12,6 +12,9 @@
     "eslintconfig"
   ],
   "author": "Donald Geddes <handlebauer@protonmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "The Unlicense",
   "bugs": {
     "url": "https://github.com/handlebauer/eslint-config-spare/issues"
