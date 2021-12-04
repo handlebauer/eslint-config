@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-spare",
+  "version": "0.0.0--ground-zero",
+  "description": "With no excess fat; thin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handlebauer/eslint-config-spare.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Donald Geddes <hi@donaldgeddes.ca>",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/handlebauer/eslint-config-spare/issues"
+  },
+  "homepage": "https://github.com/handlebauer/eslint-config-spare#readme"
+}
