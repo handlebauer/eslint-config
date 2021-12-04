@@ -4,6 +4,9 @@ module.exports = {
     node: true,
     es2021: true,
   },
+  parserOptions: {
+    sourceType: 'module',
+  },
   plugins: ['import'],
   rules: {
     camelcase: [
