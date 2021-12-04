@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/handlebauer/eslint-config-spare/issues"
   },
-  "homepage": "https://github.com/handlebauer/eslint-config-spare#readme"
+  "homepage": "https://github.com/handlebauer/eslint-config-spare#readme",
+  "prettier": "oh-so-pretty",
+  "devDependencies": {
+    "eslint": "^8.4.0",
+    "eslint-plugin-import": "^2.25.3",
+    "oh-so-pretty": "^1.0.0",
+    "prettier": "^2.5.0"
+  }
 }
