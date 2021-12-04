@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spare",
-  "version": "0.0.0--ground-zero",
+  "version": "0.0.1",
   "description": "With no excess fat; thin",
   "main": "index.js",
   "repository": {
