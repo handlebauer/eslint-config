@@ -15,6 +15,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "eslintConfig": {
+    "extends": [
+      "."
+    ]
+  },
   "license": "The Unlicense",
   "bugs": {
     "url": "https://github.com/handlebauer/eslint-config-spare/issues"
