@@ -8,6 +8,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['import'],
+  extends: ['plugin:import/recommended']
   globals: {
     test: 'readonly',
   },
