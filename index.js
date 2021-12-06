@@ -8,6 +8,9 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['import'],
+  globals: {
+    test: 'readonly',
+  },
   rules: {
     camelcase: [
       2,
