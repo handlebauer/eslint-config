@@ -27,8 +27,7 @@
   "homepage": "https://github.com/handlebauer/eslint-config-spare#readme",
   "prettier": "oh-so-pretty",
   "peerDependencies": {
-    "eslint": ">= 3",
-    "eslint-plugin-import": ">= 2"
+    "eslint": ">= 3"
   },
   "devDependencies": {
     "oh-so-pretty": "^1.0.0",

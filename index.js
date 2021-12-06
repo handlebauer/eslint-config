@@ -7,8 +7,6 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
   },
-  plugins: ['import'],
-  extends: ['plugin:import/recommended'],
   globals: {
     test: 'readonly',
   },
