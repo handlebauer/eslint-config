@@ -1,6 +1,6 @@
 {
   "name": "@hbauer/eslint-config",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "With no excess fat; thin",
   "main": "index.js",
   "repository": {
