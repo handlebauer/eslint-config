@@ -25,12 +25,12 @@
     "url": "https://github.com/handlebauer/eslint-config-spare/issues"
   },
   "homepage": "https://github.com/handlebauer/eslint-config-spare#readme",
-  "prettier": "oh-so-pretty",
+  "prettier": "@hbauer/prettier-config",
   "peerDependencies": {
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "oh-so-pretty": "^1.0.0",
+    "@hbauer/prettier-config": "^1.1.0",
     "prettier": "^2.5.0"
   }
 }
