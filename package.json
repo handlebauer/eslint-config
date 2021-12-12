@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/handlebauer/eslint-config-spare.git"
+    "url": "git+https://github.com/handlebauer/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -22,15 +22,14 @@
   },
   "license": "The Unlicense",
   "bugs": {
-    "url": "https://github.com/handlebauer/eslint-config-spare/issues"
+    "url": "https://github.com/handlebauer/eslint-config/issues"
   },
-  "homepage": "https://github.com/handlebauer/eslint-config-spare#readme",
+  "homepage": "https://github.com/handlebauer/eslint-config#readme",
   "prettier": "@hbauer/prettier-config",
   "peerDependencies": {
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "@hbauer/prettier-config": "^1.1.0",
-    "prettier": "^2.5.0"
+    "@hbauer/prettier-config": "^1.1.0"
   }
 }
