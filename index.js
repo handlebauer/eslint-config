@@ -22,7 +22,6 @@ module.exports = {
     ],
     'consistent-return': 2,
     'default-case': 2,
-    'no-console': 1,
     'no-dupe-keys': 2,
     'no-else-return': 2,
     'no-undef': 2,
