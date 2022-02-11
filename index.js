@@ -11,6 +11,7 @@ module.exports = {
   globals: {
     test: 'readonly',
   },
+  plugins: ['import'],
   rules: {
     camelcase: [
       2,
@@ -23,6 +24,13 @@ module.exports = {
     ],
     'consistent-return': 2,
     'default-case': 2,
+    'import/no-unresolved': 2,
+    'import/default': 2,
+    'import/export': 1,
+    'import/first': 1,
+    'import/named': 2,
+    'import/no-default-export': 1,
+    'import/order': 2,
     'no-dupe-keys': 2,
     'no-else-return': 2,
     'no-undef': 2,

@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/handlebauer/eslint-config#readme",
   "prettier": "@hbauer/prettier-config",
-  "peerDependencies": {
-    "eslint": ">= 3"
-  },
   "devDependencies": {
-    "@hbauer/prettier-config": "^1.1.0"
-  }
+    "@hbauer/prettier-config": "^1.1.0",
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "dependencies": {}
 }
