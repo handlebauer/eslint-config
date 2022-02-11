@@ -48,4 +48,7 @@ module.exports = {
     'prefer-arrow-callback': 2,
     'require-await': 2,
   },
+  settings: {
+    'import/core-modules': ['ava'],
+  },
 }
