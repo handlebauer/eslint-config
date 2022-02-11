@@ -28,7 +28,13 @@ module.exports = {
     'no-undef': 2,
     'no-unneeded-ternary': 2,
     'no-unreachable': 2,
-    'no-unused-vars': 2,
+    'no-unused-expressions': 2,
+    'no-unused-vars': [
+      2,
+      {
+        argsIgnorePattern: '^_',
+      },
+    ],
     'object-shorthand': 2,
     'operator-assignment': 2,
     'prefer-arrow-callback': 2,
