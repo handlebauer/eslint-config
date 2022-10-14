@@ -4,9 +4,14 @@ module.exports = {
     node: true,
     es2021: true,
   },
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: 'module',
+    requireConfigFile: false,
+    babelOptions: {
+      plugins: ['@babel/plugin-syntax-import-assertions'],
+    },
   },
   globals: {
     test: 'readonly',
