@@ -46,6 +46,7 @@ module.exports = {
       2,
       {
         argsIgnorePattern: '^_',
+        varsIgnorePattern: '^[A-Z]',
       },
     ],
     'object-shorthand': 2,
