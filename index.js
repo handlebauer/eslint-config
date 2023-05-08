@@ -36,7 +36,7 @@ module.exports = {
     'import/named': 2,
     'import/no-default-export': 1,
     'import/order': [
-      'warning',
+      1,
       {
         groups: [
           'builtin',
