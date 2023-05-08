@@ -35,7 +35,19 @@ module.exports = {
     'import/first': 1,
     'import/named': 2,
     'import/no-default-export': 1,
-    'import/order': 2,
+    'import/order': [
+      'warning',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          ['index', 'sibling'],
+          'parent',
+          'type',
+        ],
+      },
+    ],
     'no-dupe-keys': 2,
     'no-else-return': 2,
     'no-undef': 2,
@@ -43,7 +55,7 @@ module.exports = {
     'no-unreachable': 2,
     'no-unused-expressions': 2,
     'no-unused-vars': [
-      2,
+      1,
       {
         argsIgnorePattern: '^_',
         varsIgnorePattern: '^[A-Z]',
