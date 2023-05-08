@@ -56,6 +56,10 @@ module.exports = {
   },
   settings: {
     'import/core-modules': ['ava'],
-    'import/resolver': 'node',
+    'import/resolver': {
+      alias: {
+        map: [['#root', './src']],
+      },
+    },
   },
 }
