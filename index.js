@@ -56,5 +56,6 @@ module.exports = {
   },
   settings: {
     'import/core-modules': ['ava'],
+    'import/resolver': 'node',
   },
 }
