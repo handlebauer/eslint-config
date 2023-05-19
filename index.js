@@ -27,6 +27,7 @@ module.exports = {
         ignoreGlobals: true,
       },
     ],
+    'class-methods-use-this': 1,
     'consistent-return': 2,
     'default-case': 2,
     'import/no-unresolved': 2,
